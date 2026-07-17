@@ -115,6 +115,7 @@ section{padding:72px 0}
 .gamepage section{padding:56px 0}
 .lead{display:grid;grid-template-columns:1.2fr .8fr;gap:44px;align-items:center;
   border-bottom:1px solid var(--line)}
+.lead.solo{grid-template-columns:1fr;max-width:70ch}
 .lead-txt h2{font:600 1.6rem/1.1 var(--disp);margin-bottom:16px}
 .lead-txt p{color:var(--mut);margin:12px 0}
 .lead-art{border-radius:16px;border:1px solid var(--line);box-shadow:var(--shadow)}
