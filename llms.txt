@@ -1,0 +1,20 @@
+# Jcorp Studios
+
+> Jcorp Studios is a small independent game studio building handcrafted games. We ship in the open and are transparent about using AI tools in development, always under human direction and review.
+
+Website: https://jcorpstudios.com
+
+## Games
+
+- [Everdeep](https://jcorpstudios.com/games/everdeep/): A roguelite descent into a world that eats. Three weapons (sword, boomerang, sling), each the counter to a foe family, wielded down through five biomes toward the Heart at the bottom. Engine: Unity. Platforms: PC and mobile. Status: in development.
+- [Ninja Shuriken](https://jcorpstudios.com/games/ninja-shuriken/): A tight one-thumb arcade game. Tap to throw, chain the combo, chase the score. Engine: Godot. Platforms: mobile and desktop. Status: in playtest.
+
+## Devlog
+
+- [Devlog / Reports](https://jcorpstudios.com/reports/): Build-by-build development notes for each game, published in the open.
+
+## About
+
+- Independent studio; games built by hand, one slice at a time.
+- Transparent about AI use: AI assists with art, code, and iteration; all outputs are human-directed, reviewed, and quality-gated.
+- Contact: gary@leewyattcorp.com
