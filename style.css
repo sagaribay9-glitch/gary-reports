@@ -68,6 +68,8 @@ section{padding:72px 0}
 .tag.dev{background:rgba(155,109,208,.15);color:var(--violet);border:1px solid rgba(155,109,208,.35)}
 .tag.test{background:rgba(232,179,75,.13);color:var(--gold);border:1px solid rgba(232,179,75,.32)}
 .tag.play{background:rgba(96,178,140,.14);color:#63c69a;border:1px solid rgba(96,178,140,.34)}
+.game .art.plain{display:flex;align-items:center;justify-content:center}
+.game .art.plain span{font:600 1.5rem/1 var(--disp);color:rgba(255,255,255,.28);letter-spacing:.02em}
 .game h3{font:600 1.45rem/1.1 var(--disp);margin-bottom:8px}
 .game p{color:var(--mut);font-size:.96rem}
 .game .meta{margin-top:16px;display:flex;gap:8px;flex-wrap:wrap}
