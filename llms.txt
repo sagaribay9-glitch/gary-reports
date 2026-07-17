@@ -8,8 +8,8 @@ Website: https://jcorpstudios.com
 
 - [Everdeep](https://jcorpstudios.com/games/everdeep/): A roguelite descent into a world that eats. Three weapons (sword, boomerang, sling), each the counter to a foe family, wielded down through five biomes toward the Heart at the bottom. Engine: Unity. Platforms: PC and mobile. Status: in development.
 - [Ninja Shuriken](https://jcorpstudios.com/games/ninja-shuriken/): A tight one-thumb arcade game. Tap to throw, chain the combo, chase the score. Engine: Godot. Platforms: mobile and desktop. Status: in playtest.
-- [Pong](https://jcorpstudios.com/games/pong/): The arcade original rebuilt with neon and real game feel — crisp paddle physics, local duels. Engine: Godot. Platforms: Windows and Mac. Status: playable.
-- [Tetris](https://jcorpstudios.com/games/tetris/): The falling-block puzzle classic, sharpened — pixel-crisp neon tetrominoes, smooth glide-and-lock, and a rebuilt Korobeiniki theme. Engine: Godot. Platforms: Windows. Status: in playtest.
+- [Pong](https://jcorpstudios.com/games/pong/): The arcade classic, rebuilt with real game feel and crisp paddle physics. Engine: Godot. Platforms: Windows and Mac. Status: in development.
+- [Tetris](https://jcorpstudios.com/games/tetris/): The falling-block puzzle classic, sharpened — pixel-crisp blocks, smooth glide-and-lock, and a rebuilt Korobeiniki theme. Engine: Godot. Platforms: Windows. Status: in playtest.
 
 ## Devblog
 
