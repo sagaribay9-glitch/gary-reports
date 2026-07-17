@@ -77,6 +77,10 @@ section{padding:72px 0}
 .about{max-width:66ch}
 .about p{color:var(--mut);font-size:1.05rem;margin:14px 0}
 .about a{color:var(--gold)}
+.ainote{margin-top:28px;max-width:70ch;background:var(--panel);border:1px solid var(--line);
+  border-left:3px solid var(--violet);border-radius:12px;padding:24px 28px}
+.ainote h3{font:600 1.1rem/1.2 var(--sans);color:var(--ink);margin-bottom:12px}
+.ainote p{color:var(--mut);font-size:.98rem;margin:10px 0}
 
 /* devlog list */
 .log{display:grid;gap:12px}
