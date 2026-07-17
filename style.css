@@ -1,4 +1,4 @@
-/* Jalen Multimedia — site design system.
+/* Jcorp Studios — site design system.
    Palette pulled from Everdeep key art: torch ember, torch gold, abyss violet,
    heart red, deep stone. Dark, warm, crafted. */
 :root{
@@ -82,7 +82,7 @@ section{padding:72px 0}
 .ainote h3{font:600 1.1rem/1.2 var(--sans);color:var(--ink);margin-bottom:12px}
 .ainote p{color:var(--mut);font-size:.98rem;margin:10px 0}
 
-/* devlog list */
+/* devblog list */
 .log{display:grid;gap:12px}
 .log a.row{display:flex;align-items:center;gap:18px;background:var(--panel);border:1px solid var(--line);
   border-radius:12px;padding:18px 22px;transition:border-color .2s,transform .12s}

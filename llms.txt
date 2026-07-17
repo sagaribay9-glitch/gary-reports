@@ -9,9 +9,9 @@ Website: https://jcorpstudios.com
 - [Everdeep](https://jcorpstudios.com/games/everdeep/): A roguelite descent into a world that eats. Three weapons (sword, boomerang, sling), each the counter to a foe family, wielded down through five biomes toward the Heart at the bottom. Engine: Unity. Platforms: PC and mobile. Status: in development.
 - [Ninja Shuriken](https://jcorpstudios.com/games/ninja-shuriken/): A tight one-thumb arcade game. Tap to throw, chain the combo, chase the score. Engine: Godot. Platforms: mobile and desktop. Status: in playtest.
 
-## Devlog
+## Devblog
 
-- [Devlog / Reports](https://jcorpstudios.com/reports/): Build-by-build development notes for each game, published in the open.
+- [Devblog](https://jcorpstudios.com/reports/): Weekly build-by-build development notes for each game, published in the open.
 
 ## About
 
