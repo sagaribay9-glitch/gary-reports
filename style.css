@@ -134,6 +134,27 @@ section{padding:72px 0}
 .card-link{color:inherit;text-decoration:none;display:block}
 @media(max-width:680px){.lead{grid-template-columns:1fr}.lead-art{order:-1}}
 
+/* newsletter subscribe */
+#subscribe{padding-top:8px}
+.subcard{background:linear-gradient(180deg,#16131d,#121219);border:1px solid var(--line);
+  border-radius:16px;padding:38px 40px;box-shadow:var(--shadow)}
+.subcard h2{font:600 1.5rem/1.1 var(--disp);margin-bottom:10px}
+.subcard>p{color:var(--mut);margin-bottom:22px;max-width:56ch}
+/* style MailerLite's injected embed to match the site */
+.subcard .ml-form-embedWrapper,.subcard .ml-form-embedContainer{background:transparent!important;max-width:none!important}
+.subcard .ml-form-embedBody,.subcard .ml-form-embedContent{padding:0!important;margin:0!important}
+.subcard .ml-form-embedContent h4,.subcard .ml-form-embedContent p{display:none!important}
+.subcard .ml-form-fieldRow{margin-bottom:12px!important}
+.subcard input[type=email],.subcard input[type=text]{background:var(--bg)!important;
+  border:1px solid var(--line)!important;color:var(--ink)!important;border-radius:9px!important;
+  padding:13px 15px!important;font-size:15px!important;width:100%!important}
+.subcard .ml-form-embedSubmit button,.subcard button[type=submit]{
+  background:linear-gradient(180deg,var(--ember),#d9752a)!important;color:#180d04!important;
+  border:0!important;border-radius:9px!important;font-weight:700!important;padding:13px 26px!important;
+  font-size:15px!important;cursor:pointer!important}
+.subcard .ml-form-successBody,.subcard .ml-form-successContent{color:var(--ink)!important}
+.subcard .row-form,.subcard .ml-form-formContent{max-width:520px}
+
 /* footer */
 footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-size:.86rem}
 footer .wrap{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
