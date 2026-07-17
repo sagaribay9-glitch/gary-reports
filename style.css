@@ -67,6 +67,7 @@ section{padding:72px 0}
   padding:4px 10px;border-radius:20px;margin-bottom:14px}
 .tag.dev{background:rgba(155,109,208,.15);color:var(--violet);border:1px solid rgba(155,109,208,.35)}
 .tag.test{background:rgba(232,179,75,.13);color:var(--gold);border:1px solid rgba(232,179,75,.32)}
+.tag.play{background:rgba(96,178,140,.14);color:#63c69a;border:1px solid rgba(96,178,140,.34)}
 .game h3{font:600 1.45rem/1.1 var(--disp);margin-bottom:8px}
 .game p{color:var(--mut);font-size:.96rem}
 .game .meta{margin-top:16px;display:flex;gap:8px;flex-wrap:wrap}
