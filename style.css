@@ -73,6 +73,11 @@ section{padding:72px 0}
 .pill{font-size:.78rem;color:var(--mut);background:var(--bg2);border:1px solid var(--line);
   padding:5px 11px;border-radius:7px}
 
+/* about */
+.about{max-width:66ch}
+.about p{color:var(--mut);font-size:1.05rem;margin:14px 0}
+.about a{color:var(--gold)}
+
 /* devlog list */
 .log{display:grid;gap:12px}
 .log a.row{display:flex;align-items:center;gap:18px;background:var(--panel);border:1px solid var(--line);
