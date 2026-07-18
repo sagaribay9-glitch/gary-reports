@@ -16,14 +16,37 @@
   <div class="kicker">everdeep · devblog</div>
   <h1>v0.6.8 QA sweep and startup fix</h1>
   <div class="sub">2026-07-18</div>
-  <div class="notes"><p>Everdeep v0.6.8-dev received a Windows QA pass.</p>
+  <div class="notes"><p>﻿Everdeep v0.6.8-dev is a real gameplay update, followed by a full Windows QA pass. The original report was too short. This is the complete work that went into the build.</p>
+<p>SIX NEW TRANSFORMATIVE RELICS</p>
 <ul>
-<li>Rebuilt the Windows player with zero build errors.</li>
-<li>Fixed a real startup issue: older saved FULLSCREEN selections could fail before the game window appeared. They now safely start in BORDERLESS instead.</li>
-<li>Checked the title screen, main menu, settings, first room, attack, weapon swap, and dodge roll in the rebuilt player.</li>
+<li>Seam Walker turns a dodge through an enemy into one counter-weapon strike.</li>
+<li>Drowned Clock erases nearby hostile shots during a dodge roll and converts each erased shot into FLOW.</li>
+<li>Cinder Witness gives burning kills a chance to call a temporary boon, with a cooldown.</li>
+<li>Trinity Vow rewards killing a brute, wisp, and spitter in quick succession with a trinity nova and FLOW.</li>
+<li>Ashen Crown grants one random temporary boon when a hostile room is cleared.</li>
+<li>Shadow Tax pays a heart for every six flawless kills. Taking damage resets the count.</li>
+</ul>
+<p>The relic pool now holds 88 entries. Their names, mechanical text, lore lines, icons, and enum positions were kept aligned so existing saves remain compatible. The counter rule remains intact: sword answers brutes, boomerang answers wisps, and slingshot answers spitters.</p>
+<p>COMBAT AND AUDIO</p>
+<ul>
+<li>Sword, boomerang, and slingshot impacts now have distinct sound voices rather than sharing one hit sound.</li>
+<li>Existing weapon-specific hit-stop, screen shake, sparks, bloom, enemy tells, and death beats remain in place.</li>
+</ul>
+<p>PUZZLE AND PROGRESSION TUNING</p>
+<ul>
+<li>Unlit rune plates begin their faint proximity shimmer at roughly four units instead of 3.6. They still stay hidden from across the room, but are less punishing to find while searching edges.</li>
+<li>Floor key scarcity remains one in ten rooms.</li>
+<li>Essence remains based on depth divided by six, with a bonus only for a new best run.</li>
+<li>Early enemy pressure still scales through both depth and player level.</li>
+</ul>
+<p>QA AND STARTUP FIX</p>
+<ul>
+<li>The Windows player rebuilt with zero errors.</li>
+<li>QA found a real startup failure: older saved FULLSCREEN selections could fail before Everdeep established a game window. Those old selections now migrate safely to BORDERLESS at startup.</li>
+<li>The rebuilt player was tested through the title screen, main menu, settings, first room, attack, weapon swap, and dodge roll.</li>
 <li>The manual runtime log recorded no exceptions, integrity failures, null references, or display errors.</li>
 </ul>
-<p>This report is for the QA and startup fix only. No new gameplay footage was captured in this pass.</p></div>
+<p>No new gameplay footage was captured in this pass, so this report stays honest about that rather than padding it with unrelated images.</p></div>
   
 </main>
 <footer><div class="wrap"><span>Jcorp Studios</span><span class="sp"></span>
