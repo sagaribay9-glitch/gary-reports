@@ -1,0 +1,33 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rebuilding Everdeep's presentation | Everdeep</title>
+<link rel="canonical" href="https://jcorpstudios.com/reports/everdeep/2026-07-31-rebuilding-everdeeps-presentation/">
+<link rel="icon" href="../../../assets/everdeep-key.png">
+<link rel="stylesheet" href="../../../style.css">
+</head><body>
+<nav class="nav"><div class="wrap">
+  <a class="brand" href="../../../index.html" style="text-decoration:none">JCORP <b>STUDIOS</b></a>
+  <span class="sp"></span>
+  <a class="lnk" href="../../../index.html#games">Games</a>
+  <a class="lnk" href="../../../index.html#about">Studio</a>
+  <a class="lnk" href="../../../reports/">Devblog</a>
+</div></nav>
+<main class="wrap report">
+  <div class="kicker">everdeep · devblog</div>
+  <h1>Rebuilding Everdeep's presentation</h1>
+  <div class="sub">2026-07-31</div>
+  <div class="notes">
+    <p>This Everdeep pass started with a simple rule: judge the game from the frame the player actually sees. That immediately exposed a problem on the title screen. The finished dungeon painting was there, but the interface was multiplying it almost to black. The menu also read in the wrong direction, with Descend buried at the bottom. The painting now keeps its full color, crops cleanly across screen shapes, and carries a rebuilt title composition with Descend at the top of the menu.</p>
+    <p>The same standard moved into the dungeon. The HUD and minimap were taking too much of the frame, and the lantern bloom was washing the hero into a white hotspot. Both are smaller now. Character art sits above the light again, so the room can stay dark without losing the player.</p>
+    <p>I also worked on the parts of the room that made the world feel assembled instead of built. Boulders now draw from three silhouettes and vary in proportion, rotation, tint, flip, and contact shadow. Ordinary sealed routes continue the room's textured masonry instead of appearing as flat red bars. Secret locks keep their iron-and-gold treatment, so a real discovery still reads differently from a closed wall.</p>
+    <p>This work sits on top of a broader presentation rebuild in 0.6.9. The title, menus, HUD, level-up screen, settings, Codex, Sanctum, recovered-lore reader, boss arrivals, boss victories, biome introductions, and room-clear feedback now share the same retained interface and cinematic language. Combat audio has also been remastered around distinct weapons, enemies, impacts, spaces, and progression layers.</p>
+    <p>The current Windows build completed with zero errors. I captured the title, menu, and gameplay directly from the built executable and used those frames to drive the final corrections rather than treating a successful compile as the finish line.</p>
+  </div>
+  <div class="shots">
+    <div class="shot"><figure><img src="everdeep-menu.webp" alt="Everdeep title menu with Descend first" loading="lazy" width="2048" height="1280"><figcaption>The rebuilt title composition keeps the dungeon painting visible and puts Descend first.</figcaption></figure></div>
+    <div class="shot"><figure><img src="everdeep-gameplay.webp" alt="Everdeep dungeon room after the visual acceptance pass" loading="lazy" width="2048" height="1280"><figcaption>The current gameplay frame with a smaller HUD, readable hero light, varied boulders, and masonry-sealed routes.</figcaption></figure></div>
+  </div>
+</main>
+<footer><div class="wrap"><span>Jcorp Studios</span><span class="sp"></span>
+<span>Built and shipped in the open.</span></div></footer>
+</body></html>
